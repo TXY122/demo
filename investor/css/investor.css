@@ -1,0 +1,205 @@
+.stock{
+	padding: 1rem 0;
+	background: #fff url(../images/stock_bg.png) center bottom / 100% auto no-repeat;
+}
+.common_tit2{
+	margin: auto;
+}
+.common_tit2 h3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  font-size: 0.36rem;
+  color: #474443;
+  font-weight: normal;
+}
+.common_tit2 {
+	text-align: center;
+}
+.common_tit2 h3::before,
+.common_tit2 h3::after {
+  content: '';
+  display: inline-block;
+  width: 60px;
+  height: 1px;
+  margin: 0 28px;
+  background: #ccc;
+}
+.common_tit2 h5 {
+  font-family: Helvetica-Condensed-Bold;
+  font-size: 0.36rem;
+  line-height: 0.45rem;
+  color: #000;
+  opacity: 0.1;
+  margin-top: 0.2rem;
+  text-align: center;
+}
+.stocki {
+  padding: 0.45rem 0;
+}
+.stock .container{
+	display: block !important;
+}
+.stocki .consult{
+	width: 3.34rem;
+	float: left;
+}
+.stocki .consult .tit {
+  font-size: 0.24rem;
+  line-height: 0.32rem;
+  color: #333;
+  width: calc(100% - 0.2rem);
+  border-bottom: 1px solid #f5f5f5;
+  padding-bottom: 0.16rem;
+}
+.stocki .consult ul {
+  padding-top: 0.14rem;
+}
+.stocki .consult li {
+	display: flex;
+	align-items: center;
+  margin-top: 0.3rem;
+}
+.stocki .consult .img {
+  width: 0.65rem;
+  height: 0.65rem;
+  background: #f5f5f5;
+}
+.stocki .consult .img img{
+	display: block;
+}
+.stocki .consult p {
+  font-size: 0.18rem;
+  color: #333;
+  font-weight: bold;
+  margin-left: 0.2rem;
+}
+.stocki .consult p a{
+  color: #333;
+}
+.stocki .speed {
+  width: calc(100% - 3.34rem);
+  float: left;
+  border-left: 1px solid #f5f5f5;
+  padding-left: 0.2rem;
+  box-sizing: border-box;
+}
+.stocki .rt {
+	display: flex;
+	align-items: center;
+  background: #005bac;
+  padding: 0.5rem 0.24rem 0.6rem;
+}
+.stocki .rtl {
+  width: 50%;
+}
+.stocki .rtl p {
+  font-size: 0.18rem;
+  line-height: 0.28rem;
+  color: #ffffff;
+}
+.stocki .rtl h2 {
+  font-family: Arial;
+  font-size: 0.32rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0.4rem 0;
+  line-height: 0.9;
+}
+.stocki .rtl h2 span {
+  font-size: 0.95rem;
+  line-height: 0.72;
+}
+.stocki .rtl h2 i.up {
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 0.075rem solid transparent;
+  border-top: 0;
+  border-bottom: 0.14rem solid #fff;
+}
+.stocki .rtl h2 i {
+  width: 0.15rem;
+  height: 0.06rem;
+  background: #fff;
+  margin: 0 2% 0 8%;
+  position: relative;
+  top: -0.22rem;
+}
+.stocki .rtl h6 {
+  font-size: 0.14rem;
+  color: #71b7e4;
+  font-weight: normal;
+  word-break: keep-all;
+  white-space: nowrap;
+}
+.stocki .rtr {
+	display: flex;
+	align-items: center;
+  width: 50%;
+}
+.stocki .rtr li {
+	width: 25%;
+  text-align: center;
+}
+.stocki .rtr li h5 {
+  font-size:0.12rem;
+  font-weight: normal;
+  color: #ffffff;
+}
+.stocki .rtr li h6 {
+  font-size: 0.20rem;
+  font-weight: normal;
+  color: #71b7e4;
+  margin-top: 0.3rem;
+}
+.stocki .rb {
+  margin-top: 0.6rem;
+}
+.stocki .rb{
+	overflow: hidden;
+}
+.stocki iframe{
+	width: 100%;
+	height: 5.08rem;
+	box-sizing: border-box;
+}
+@media (max-width: 768px){
+.stocki .consult {
+  width: 100%;
+  float: none;
+}
+.stocki .consult li {
+  margin-top: 10px;
+}
+.stocki .speed {
+  width: 100%;
+  float: none;
+  padding: 0.2rem 0 0;
+}
+.stocki .rt {
+	display: block;
+  padding: 0.3rem 5%;
+  display: block;
+}
+.stocki .rtl {
+  width: 100%;
+  float: none;
+  display: block;
+}
+.stocki .rtl h2 span {
+  font-size: 0.5rem;
+  line-height: 0.72;
+}
+.stocki .rtr{
+	width: 100%;
+	float: none;
+}
+.stocki .rtl h2 {
+    font-size: 0.22rem;
+}
+.stocki .rtr li{
+	width: 50% !important;
+	margin-top: 0.2rem;
+}
+}

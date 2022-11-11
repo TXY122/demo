@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../public/css/public.css" />
+		<link rel="stylesheet" type="text/css" href="../public/css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../public/css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/investor.css" />
+		<link rel="stylesheet" type="text/css" href="../public/css/banner.css" />
+		<script src="../public/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../public/js/wow.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/investor.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="box">
+			<div id="head"></div>
+			<div class="banner">
+				<img src="images/20200305152243_2156.jpg" class="hidden-xs" alt="水晶光电">
+				<img src="images/20200305152247_0938.jpg" class="visible-xs" alt="水晶光电">
+				<div class="text flex">
+					<div class="inner wow fadeInUp">
+						<h4>投资者关系</h4>
+						<h6>Investor relations</h6>
+					</div>
+				</div>
+			</div>
+			<div class="stock">
+				<div class="container">
+					<div class="common_tit2 wow fadeInUp">
+						<h3 class="flex">股票走势</h3>
+						<h5>STOCK TREND</h5>
+					</div>
+					<div class="stocki clearfix wow fadeInUp">
+						<div class="consult">
+							<div class="tit">咨询我们</div>
+							<ul>
+								<li class="consult-i">
+									<div class="img"><img src="images/stock_r1.png" alt="水晶光电"></div>
+									<p>咨询部门：证券投资部</p>
+								</li>
+								<li class="consult-i">
+									<div class="img"><img src="images/stock_r2.png" alt="水晶光电"></div>
+									<p>咨询电话：<a href="tel: 0576-89811901">0576-89811901</a></p>
+								</li>
+								<li class="consult-i">
+									<div class="img"><img src="images/stock_r3.png" alt="水晶光电"></div>
+									<p>传真电话：<a href="tel: 0576-89811906">0576-89811906</a></p>
+								</li>
+							</ul>
+						</div>
+						<div class="speed">
+							<div class="rt flex">
+								<div class="rtl">
+									<p>水晶光电（SZ.002273）</p>
+									<h2>
+										<span id="last_px">11.68</span>
+										<i id="px_change"class="up"></i>
+										RMB
+									</h2>
+									<h6>截至
+										<span id="upDate">2022-10-20 15:36:54</span> 
+										北京时间 *报价有十五分钟或以上延迟。 
+									</h6>
+								</div>
+								<ul class="rtr flex flex-1 clearfix">
+									<li>
+										<h5>最高</h5>
+										<h6 id="high_px">11.85</h6>
+									</li>
+									<li>
+										<h5>最低</h5>
+										<h6 id="low_px">11.43</h6>
+									</li>
+									<li>
+										<h5>成交量（万手）</h5>
+										<h6 id="business_amount">16.300</h6>
+									</li>
+									<li>
+										<h5>成交额（亿元）</h5>
+										<h6 id="business_balance">1.902</h6>
+									</li>
+								</ul>
+							</div>
+							<div class="rb">
+								<iframe src="http://www.crystal-optech.com/stock/index.html" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="bottom"></div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function() {
+			$("#head").load("../public/public-head-investor.html")
+			$("#bottom").load("../public/public-bottom.html")
+		});
+	</script>
+</html>
