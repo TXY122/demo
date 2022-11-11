@@ -1,0 +1,50 @@
+/* 进度条 */
+body{
+  background: #f6f6f6;
+}
+.collect{
+  margin-top: 2rem;
+}
+.schedule_box {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2.22rem;
+  height: 0.4rem;
+  display: flex;
+  justify-content: center;
+  margin-left: 0.06rem;
+}
+
+/* 进度条 */
+/* .content {
+  margin: 0.70rem 1.00rem;
+} */
+
+#scheduleX {
+  width: 3.00rem !important;
+  height: 0.25rem;
+  border-radius: 0.05rem;
+  background-color: #7d8e91;
+  border: 0.01rem solid #7a7a7a;
+}
+
+#scheduleX .xList {
+  background-color: #2bd74c;
+  border-radius: 0.05rem;
+  width: 0%;
+  height: 100%;
+  /* position: relative; */
+}
+
+#scheduleX .xList .xNum {
+  font-size: 0.2rem;
+  font-family:  PangMenZhengDao, Arial;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  color: #fff;
+  transform: translate(50%, 0%);
+  z-index: 10;
+}
